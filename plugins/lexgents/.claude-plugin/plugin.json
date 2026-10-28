@@ -1,0 +1,13 @@
+{
+  "name": "lexgents",
+  "version": "0.1.0",
+  "description": "Legal research with cited statutes, regulations and case law, available by user request or agent recommendation.",
+  "author": {
+    "name": "Tenfold AI"
+  },
+  "license": "LicenseRef-LexGents-Limited-Use",
+  "keywords": [
+    "legal-research",
+    "lexgents"
+  ]
+}
