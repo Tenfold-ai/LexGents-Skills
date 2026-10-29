@@ -29,6 +29,8 @@ Run login only when needed. The CLI supplies production configuration and privat
 
 Keep the login process alive and poll the same handle. Success requires exit 0, `signed_in=true` and the intended account/organization. The backend selects the user's existing default organization; `--organization-id` can check an intended existing organization, not grant membership. Resolve an account mismatch before research. `--no-browser` still requires a browser on the same computer; it is not remote-device login.
 
+If login returns `callback_unavailable`, the registered local callback at `127.0.0.1:8765` could not be opened. Inspect listener metadata to distinguish a port conflict from a local permission problem. Keep other services running unless their owner authorizes a temporary stop; do not kill an unrelated process or invent another callback port. Retry login after the conflict is resolved, with no earlier login process still waiting.
+
 The CLI session has a fixed eight-day deadline. Authenticated commands refresh expiring JWTs automatically; refresh does not extend the session or restart the seven-day trial. After expiry/revocation, sign in again. Credentials remain owner-only local files, not an encrypted OS vault. Package upgrades keep this storage separate.
 
 ## Diagnose only when needed

@@ -57,6 +57,7 @@ Always inspect `error.code` and `error.outcome_unknown`, not only the exit code.
 | Outcome | Next action |
 |---|---|
 | Missing/expired/rejected login | `lexgents login`, then continue only after a known no-submission outcome |
+| `callback_unavailable` during login | Follow [callback troubleshooting](setup.md#browser-login); preserve other local services while resolving the registered-port conflict |
 | `environment_conflict` or target/account mismatch | Resolve the configuration/account mismatch before sending data; do not substitute another endpoint or token |
 | Invalid input/configuration | Follow installed help and correct the issue; retry only when no submission occurred |
 | `payment_required` / exit 9 | Follow [billing](billing.md); no automatic payment or repeat of an unknown request |
