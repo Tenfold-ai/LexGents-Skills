@@ -16,13 +16,13 @@ Questions are limited to 2,000 characters in every input mode. Default jurisdict
 
 ## Long or sensitive questions
 
-Command-line arguments can appear in shell history or process listings. For long or sensitive content, write the authorized question to a private UTF-8 `question.txt`, then run:
+Command-line arguments can appear in shell history or process listings. For long or sensitive content, write the current authorized question to a private UTF-8 `question.txt`, then run:
 
 ```bash
 lexgents research --query-file question.txt --json
 ```
 
-`--query-file -` can read stdin. Keep question and result files private. File input retains the same length limit and remote-processing authorization requirements.
+`--query-file -` can read stdin. This is a way to pass the current question, not document ingestion or permission to scan existing files. Keep question and result files private. File input retains the same length limit and remote-processing authorization requirements; it does not keep the question local. Review [data handling](data-handling.md) before sending confidential material.
 
 ## Structured input
 

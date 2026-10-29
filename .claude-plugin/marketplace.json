@@ -1,14 +1,14 @@
 {
   "name": "tenfoldai",
-  "description": "LexGents agent plugins maintained by Tenfold AI.",
+  "description": "LexGents agent plugins maintained by TenfoldAI.",
   "owner": {
-    "name": "Tenfold AI"
+    "name": "TenfoldAI"
   },
   "plugins": [
     {
       "name": "lexgents",
       "source": "./plugins/lexgents",
-      "description": "Legal research with cited statutes, regulations and case law, available by user request or agent recommendation."
+      "description": "Legal research with cited statutes, regulations and case law through the local LexGents CLI."
     }
   ]
 }

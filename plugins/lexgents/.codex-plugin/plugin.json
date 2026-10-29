@@ -1,9 +1,9 @@
 {
   "name": "lexgents",
-  "version": "0.1.0",
-  "description": "Legal research with cited statutes, regulations and case law, available by user request or agent recommendation.",
+  "version": "0.1.1",
+  "description": "Legal research with cited statutes, regulations and case law through the local LexGents CLI.",
   "author": {
-    "name": "Tenfold AI"
+    "name": "TenfoldAI"
   },
   "license": "LicenseRef-LexGents-Limited-Use",
   "keywords": [
@@ -14,7 +14,7 @@
   "interface": {
     "displayName": "LexGents",
     "shortDescription": "Legal research with LexGents and cited sources",
-    "developerName": "Tenfold AI",
+    "developerName": "TenfoldAI",
     "category": "Productivity"
   }
 }
