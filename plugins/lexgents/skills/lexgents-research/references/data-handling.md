@@ -21,9 +21,9 @@ Installation downloads the latest stable `lexgents-cli` and its dependencies fro
 
 ## Terms, retention and deletion
 
-Read the [LexGents Privacy Policy](https://lexgents.tenfoldai.io/privacy-policy) and [Terms of Service](https://lexgents.tenfoldai.io/terms-of-service). The privacy policy describes account and service personal data, but assigns input, uploaded and generated Content to applicable Client Agreements. Confirm which agreement covers the account before sending confidential research. Do not infer a fixed research-retention period or a blanket no-training promise from the CLI session lifetime.
+Read the [LexGents Privacy Policy](https://lexgents.tenfoldai.io/privacy-policy) and [Terms of Service](https://lexgents.tenfoldai.io/terms-of-service). The privacy policy describes account and service personal data, but assigns input, uploaded and generated Content to applicable Client Agreements, a term that includes Terms of Service. Start with those published terms and use an account-specific agreement when applicable; the policy does not by itself require a separate DPA. Resolve any confidentiality requirements those terms do not address before submission. Do not infer a fixed research-retention period or a blanket no-training promise from the CLI session lifetime.
 
-After a known research outcome, the CLI attempts to delete its temporary research thread. A successful deletion does not establish that service logs, traces, billing records or backups were erased. Unknown outcomes may leave remote work active. Logout removes local CLI credentials and attempts refresh-token revocation; it is not a request to delete remote research or the account.
+After a known research outcome, the CLI attempts to delete its temporary research thread. A successful deletion does not establish that service logs, traces, billing records or backups were erased. Unknown outcomes may leave remote work active. Logout reports whether local credentials were removed and refresh-token revocation completed; it is not a request to delete remote research or the account.
 
 For privacy or deletion requests, contact `privacy@tenfoldai.io`, as listed in the Privacy Policy. Do not promise a deletion deadline or universal erasure that the applicable agreement does not establish.
 
